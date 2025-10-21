@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "pixabay-mcp": {
+      "command": "npx",
+      "args": [
+        "pixabay-mcp"
+      ],
+      "env": {
+        "PIXABAY_API_KEY": "48095218-8b59ceed6a619dfa69413bafa"
+      }
+    }
+  }
+}
