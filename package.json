@@ -2,6 +2,20 @@
   "name": "ibuildit",
   "version": "0.1.0",
   "private": true,
+  "description": "The GitHub of Automations - Community-driven workflow repository to replace expensive SaaS subscriptions",
+  "keywords": [
+    "automation",
+    "workflows",
+    "n8n",
+    "zapier",
+    "make",
+    "saas-alternative",
+    "no-code",
+    "low-code",
+    "community",
+    "open-source"
+  ],
+  "author": "IBuildIt Team",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

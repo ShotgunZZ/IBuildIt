@@ -149,8 +149,9 @@ const workflows = {
   },
 }
 
-export default function WorkflowPage({ params }: { params: { slug: string } }) {
-  const workflow = workflows[params.slug as keyof typeof workflows]
+export default async function WorkflowPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const workflow = workflows[slug as keyof typeof workflows]
 
   if (!workflow) {
     notFound()
